@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ECR Beach Stays | Koovathur Beach Houses & Resorts</title>
+  <meta name="description" content="Find beach houses, villas and small resorts around Koovathur, ECR, Mahabalipuram and Alamparai." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="hero">
+    <nav>
+      <div class="brand">ECR Beach Stays</div>
+      <div class="navlinks">
+        <a href="#listings">Listings</a>
+        <a href="#plan">Plan</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+    <section class="hero-content">
+      <p class="eyebrow">Koovathur • ECR • 50 km surroundings</p>
+      <h1>Beach houses, villas & mini resorts near Koovathur</h1>
+      <p class="lead">A clean local directory for weekend stays, private villas, family resorts and beachside rooms around Koovathur, Mugaiyur, Paramankeni, Alamparai and Mahabalipuram.</p>
+      <div class="hero-actions">
+        <a class="btn primary" href="#listings">Explore stays</a>
+        <a class="btn secondary" href="https://www.google.com/maps/search/beach+resort+near+Koovathur" target="_blank">Open map search</a>
+      </div>
+    </section>
+  </header>
+
+  <main>
+    <section class="stats">
+      <div><strong id="totalCount">10</strong><span>shortlisted stays</span></div>
+      <div><strong>50 km</strong><span>Koovathur radius</span></div>
+      <div><strong>2</strong><span>main categories</span></div>
+      <div><strong>Free</strong><span>static MVP ready</span></div>
+    </section>
+
+    <section class="intro">
+      <div>
+        <p class="eyebrow">Website idea</p>
+        <h2>Best plan: local stay finder, not only a hotel website</h2>
+      </div>
+      <p>This first version separates <b>Beach Houses / Villas</b> and <b>Mini Resorts</b>. Users can search by name, area, amenities, property type and owner verification status. Photos should be added only after owner permission.</p>
+    </section>
+
+    <section class="filters" id="listings">
+      <input id="searchInput" placeholder="Search by resort, area, pool, villa, beach..." />
+      <select id="typeFilter">
+        <option value="">All types</option>
+      </select>
+      <select id="areaFilter">
+        <option value="">All areas</option>
+      </select>
+    </section>
+
+    <section id="cards" class="cards"></section>
+
+    <section class="plan" id="plan">
+      <p class="eyebrow">Next plan</p>
+      <h2>How to make this a real business website</h2>
+      <div class="steps">
+        <article><span>01</span><h3>Verify owners</h3><p>Call / WhatsApp each property and confirm phone number, room details, price range and photo permission.</p></article>
+        <article><span>02</span><h3>Add real photos</h3><p>Use only owner-supplied images or your own photos. Avoid copying Google Maps / OTA photos without permission.</p></article>
+        <article><span>03</span><h3>Publish free first</h3><p>Deploy this static site on GitHub Pages, Netlify or Cloudflare Pages. Buy domain later.</p></article>
+        <article><span>04</span><h3>Lead generation</h3><p>Add WhatsApp enquiry form and charge owners monthly for featured listing after traffic starts.</p></article>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <h2>Want to list your beach house?</h2>
+      <p>Send property name, location, phone number, room details, price range and photos permission.</p>
+      <a class="btn primary" href="https://wa.me/" target="_blank">WhatsApp Enquiry</a>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 ECR Beach Stays. Rates and availability can change. Verify directly before booking.</p>
+  </footer>
+
+  <script src="data.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
